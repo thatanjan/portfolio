@@ -25,8 +25,7 @@ const BackgroundImage = () => (
 	>
 		<Image
 			alt='Anjan Shomodder'
-			src='dfdf'
-			loader={() => 'https://pbs.twimg.com/media/DYd2UBlX4AA_ysG.jpg:large'}
+			src='/homepageBG.jpg'
 			layout='fill'
 			objectFit='cover'
 		/>

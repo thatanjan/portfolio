@@ -8,6 +8,11 @@
 - I mostly develop MERN(MongoDB, Express, React, NodeJS) stack applications.
 - A Self taught Full Stack Developer who is open to learning more and more.
 
+### Screenshots
+
+![homepage](./public/screenshots/portfolio/homepage.png)
+![skills](./public/screenshots/portfolio/skills.png)
+
 ### My other projects
 
 - [ Confession ](https://github.com/thatanjan/confession)

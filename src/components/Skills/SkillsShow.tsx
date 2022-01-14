@@ -12,6 +12,8 @@ interface Props {
 }
 
 const SkillsShow = ({ title, skills }: Props) => {
+	if (!skills|| !Array.isArray(skills) || skills.length === 0) return null
+	
 	return (
 		<Grid container justifyContent='space-around' spacing={4} sx={{ mb: '5rem' }}>
 			<Grid item xs={12}>

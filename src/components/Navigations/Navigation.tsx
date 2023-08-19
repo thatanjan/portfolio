@@ -33,7 +33,7 @@ const links = [
 		text: 'About',
 	},
 	{
-		href: 'https://www.culescoding.space/',
+		href: 'https://cules-coding.vercel.app/',
 		text: 'Blog',
 	},
 	{

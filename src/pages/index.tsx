@@ -144,11 +144,10 @@ const Index = () => {
 						</Grid>
 						<Grid item xs={10}>
 							<Typography>
-								I am a full stack developer who can develop applications from UI to
-								backend systems. I am looking for a company where I can prove myself by
-								providing great value with my skills and knowledge. I want to join a
-								team where I can collaborate with intelligent people and learn from
-								them.
+								Experienced Full Stack Developer with a year of expertise in application
+								development, covering UI and backend systems. On the lookout for
+								opportunities to add value and learn from a dynamic team of
+								professionals.
 							</Typography>
 						</Grid>
 

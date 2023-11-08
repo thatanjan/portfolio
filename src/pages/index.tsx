@@ -2,7 +2,6 @@ import React from 'react'
 import Typography from '@mui/material/Typography'
 import Box from '@mui/material/Box'
 import Grid from '@mui/material/Grid'
-import Image from 'next/image'
 import { nanoid } from 'nanoid'
 import { NextSeo } from 'next-seo'
 
@@ -10,39 +9,6 @@ import LinkButton from 'components/Buttons/LinkButton'
 
 import ProfileImage from 'components/Images/ProfileImage'
 import Profession from 'components/Skills/Profession'
-
-const BackgroundImage = () => (
-	<Box
-		sx={{
-			position: 'fixed',
-			height: '100vh',
-			width: '100vw',
-			overflow: 'hidden',
-			zIndex: 0,
-			top: 0,
-			left: 0,
-		}}
-	>
-		<Image
-			alt='Anjan Shomodder'
-			src='dfdf'
-			loader={() => 'https://pbs.twimg.com/media/DYd2UBlX4AA_ysG.jpg:large'}
-			layout='fill'
-			objectFit='cover'
-		/>
-
-		<Box
-			sx={{
-				background: 'rgba(0,0,0,.85)',
-				position: 'absolute',
-				top: 0,
-				left: 0,
-				width: '100vw',
-				height: '100vh',
-			}}
-		/>
-	</Box>
-)
 
 const Index = () => {
 	return (
@@ -52,12 +18,11 @@ const Index = () => {
 				description="Portfolio website of Anjan Shomodder. Anjan is a full stack web developer, Blogger and instructor at Cules Coding youtube channel. Creator of open source Social media application 'Confession'"
 			/>
 
-			<BackgroundImage />
-
 			<Box
 				sx={{
 					display: 'grid',
 					height: '100vh',
+					background: 'rgba(0,0,0,.85)',
 					gridTemplateColumns: {
 						xs: '1fr',
 						md: '40% 55%',

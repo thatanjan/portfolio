@@ -21,6 +21,8 @@ const graphql = new Skill('GraphQL', 'graphql.png')
 const rest = new Skill('REST', 'rest.png')
 const mongoose = new Skill('Mongoose', 'mongoose.png')
 const stripe = new Skill('Stripe', 'stripe.jpg')
+const python = new Skill('Python', 'python.png')
+const django = new Skill('Django', 'django.png')
 
 const vim = new Skill('Vim', 'vim.svg')
 const github = new Skill('GitHub', 'github.png')
@@ -51,10 +53,10 @@ const backSkills: Skill[] = [
 	express,
 	mongodb,
 	graphql,
-	rest,
+	python,
+	django,
 	mongoose,
 	stripe,
-	nextjsApiRoutes,
 ]
 
 const tools: Skill[] = [

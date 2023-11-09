@@ -22,16 +22,16 @@ export class ProjectPath {
 const allProject: Project[] = [
 	confession,
 	culesCoding,
-	culesShop,
 	spacexClone,
 	huluClone,
 	teslaClone,
 	videoBackgroundLandingPage,
-	fullPageLandingPage
+	fullPageLandingPage,
+	culesShop,
 ]
 
 export const allProjectPaths = allProject.map(
-	({ title }: Project) => new ProjectPath(title)
+	({ title }: Project) => new ProjectPath(title),
 )
 
 export default allProject

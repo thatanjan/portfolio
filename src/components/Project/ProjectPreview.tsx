@@ -16,7 +16,7 @@ interface Props {
 
 const ProjectPreview = ({ title, subtitle, images }: Props) => {
 	return (
-		<Box sx={{ marginBottom: '5rem' }}>
+		<Grid item sx={{}} xs={11} md={5}>
 			<ProjectImageSlideShow images={images} />
 
 			<Typography variant='h2' gutterBottom sx={{ textTransform: 'capitalize' }}>
@@ -45,7 +45,7 @@ const ProjectPreview = ({ title, subtitle, images }: Props) => {
 					</LinkButton>
 				</Grid>
 			</Grid>
-		</Box>
+		</Grid>
 	)
 }
 

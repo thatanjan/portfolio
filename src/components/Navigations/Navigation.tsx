@@ -28,10 +28,10 @@ const links = [
 			'https://www.youtube.com/channel/UCBaGowNYTUsm3IDaHbLRMYw?sub_confirmation=1',
 		text: 'Youtube',
 	},
-	{
-		href: '/about',
-		text: 'About',
-	},
+	// {
+	// 	href: '/about',
+	// 	text: 'About',
+	// },
 	{
 		href: 'https://cules-coding.vercel.app/',
 		text: 'Blog',

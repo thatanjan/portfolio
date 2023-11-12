@@ -21,6 +21,8 @@ const graphql = new Skill('GraphQL', 'graphql.png')
 const rest = new Skill('REST', 'rest.png')
 const mongoose = new Skill('Mongoose', 'mongoose.png')
 const stripe = new Skill('Stripe', 'stripe.jpg')
+const python = new Skill('Python', 'python.png')
+const django = new Skill('Django', 'django.png')
 
 const vim = new Skill('Vim', 'vim.svg')
 const github = new Skill('GitHub', 'github.png')
@@ -31,6 +33,9 @@ const devtools = new Skill('Browser DevTools', 'devtools.png')
 const prettier = new Skill('Prettier', 'prettier.png')
 const eslint = new Skill('ESLint', 'eslint.png')
 const gulp = new Skill('Gulp', 'gulp.png')
+
+const githubActions = new Skill('GitHub Actions', 'github-actions.png')
+const docker = new Skill('Docker', 'docker.svg')
 
 const frontSkills: Skill[] = [
 	html,
@@ -51,10 +56,10 @@ const backSkills: Skill[] = [
 	express,
 	mongodb,
 	graphql,
-	rest,
+	python,
+	django,
 	mongoose,
 	stripe,
-	nextjsApiRoutes,
 ]
 
 const tools: Skill[] = [
@@ -70,9 +75,12 @@ const tools: Skill[] = [
 	gulp,
 ]
 
+const devopsSkills: Skill[] = [githubActions, docker]
+
 export {
 	frontSkills,
 	backSkills,
+	devopsSkills,
 	tools,
 	html,
 	css,
@@ -103,4 +111,6 @@ export {
 	prettier,
 	eslint,
 	gulp,
+	githubActions,
+	docker,
 }

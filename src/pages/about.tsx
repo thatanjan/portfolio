@@ -12,6 +12,7 @@ import AboutMeQuestions from 'components/Questions/AboutMeQuestions'
 import Profession from 'components/Skills/Profession'
 
 import allQuestions from 'data/aboutMe/questions'
+import { GetServerSideProps } from 'next'
 
 const About = () => {
 	return (
@@ -92,3 +93,13 @@ const About = () => {
 }
 
 export default About
+
+// Disable about page from users temporarily
+export const getServerSideProps: GetServerSideProps = async () => {
+	return {
+		props: {},
+		redirect: {
+			destination: '/',
+		},
+	}
+}

@@ -10,6 +10,7 @@ import CenterLayout from 'components/Layouts/CenterLayout'
 import Project from 'classes/Project/Project'
 
 import allProject from 'data/projects/allProject'
+import { Grid } from '@mui/material'
 
 interface Props {
 	projects: Project[]
@@ -25,11 +26,13 @@ const Projects = ({ projects }: Props) => {
 					text='My projects'
 					description='All web development projects from front end to full stack'
 				/>
+			</CenterLayout>
 
+			<Grid container justifyContent='space-evenly'>
 				{projects.map(project => (
 					<ProjectPreview {...project} key={nanoid()} />
 				))}
-			</CenterLayout>
+			</Grid>
 		</>
 	)
 }

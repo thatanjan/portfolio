@@ -123,11 +123,11 @@ const Index = () => {
 							justifyContent='center'
 							sx={{ marginTop: { xs: '1rem' } }}
 						>
-							{['More about me', 'Hire me'].map((text, index) => (
+							{['Projects', 'Hire me'].map((text, index) => (
 								<Grid item xs={6} key={nanoid()}>
 									<LinkButton
 										key={nanoid()}
-										href={index ? '/contact' : '/about'}
+										href={index ? '/contact' : '/projects'}
 										variant='outlined'
 										sx={{ fontWeight: 'bold', width: '95%', height: '100%' }}
 									>

@@ -28,7 +28,7 @@ const Projects = ({ projects }: Props) => {
 				/>
 			</CenterLayout>
 
-			<Grid container justifyContent='space-evenly'>
+			<Grid container justifyContent='space-evenly' sx={{ paddingBottom: '5rem' }}>
 				{projects.map(project => (
 					<ProjectPreview {...project} key={nanoid()} />
 				))}

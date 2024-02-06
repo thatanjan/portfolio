@@ -15,7 +15,9 @@ class Project {
 	images: string[]
 
 	frontEndTechs: Tech[]
+
 	backEndTechs: Tech[]
+
 	toolsUsed: Tech[]
 
 	constructor(title: string) {

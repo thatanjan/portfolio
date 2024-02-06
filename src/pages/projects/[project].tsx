@@ -33,6 +33,7 @@ const ProjectPage = ({
 	},
 }: Props) => {
 	const convertedTitle = convertDashToSpace(title)
+
 	return (
 		<>
 			<NextSeo title={convertedTitle} description={description[0]} />
@@ -112,7 +113,7 @@ export const getStaticProps: GetStaticProps<Props> = async ({
 	params,
 }: Params) => {
 	const project = allProject.find(
-		({ title }) => title === params.project
+		({ title }) => title === params.project,
 	) as Project
 
 	return {

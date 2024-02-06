@@ -26,11 +26,11 @@ import readImagePaths from 'utils/readImagePaths'
 export const FACESTA = 'facesta'
 
 const subtitle =
-	'An open source social media plattform for people to overcome their imposter syndrome.'
+	'Facesta is a social media Platform inspired from Facebook and Instagram.'
 
 const description = [
-	`A social media application to help people overcome their imposter syndrome. It's name is Facesta. It has user authentication, Newsfeed, picture upload and almost every feature that a social media application needs.`,
-	`The basic idea here is, if people could share their failure stories freely then other will not have the feeling of 'not good enough'. That's how we can kill our imposter syndrome.`,
+	subtitle,
+	`It has user authentication, Newsfeed, picture upload and almost every feature that a social media application needs.`,
 ]
 
 const frontEndTechs = [javascript, react, redux, nextjs, typescript, mui]

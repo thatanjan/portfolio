@@ -61,7 +61,7 @@ const projectInfos = [
 	}),
 	new Info({
 		field: 'live_demo',
-		href: 'https://con-fession.vercel.app/',
+		href: 'https://facesta.vercel.app/',
 		value: 'Facesta',
 	}),
 	new Info({

@@ -10,7 +10,7 @@
 
 ### My other projects
 
-- [ Confession ](https://github.com/thatanjan/confession)
+- [Facesta](https://github.com/thatanjan/facesta)
 - [Cules Coding](https://www.culescoding.space/)
 - [Cules Shop](https://github.com/thatanjan/cules-shop)
 

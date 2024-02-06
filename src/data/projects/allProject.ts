@@ -1,4 +1,4 @@
-import confession from 'data/projects/confession'
+import facesta from 'data/projects/facesta'
 import culesCoding from 'data/projects/culesCoding'
 import culesShop from 'data/projects/culesShop'
 import spacexClone from 'data/projects/spacexLandingPageClone'
@@ -20,7 +20,7 @@ export class ProjectPath {
 }
 
 const allProject: Project[] = [
-	confession,
+	facesta,
 	culesCoding,
 	spacexClone,
 	huluClone,

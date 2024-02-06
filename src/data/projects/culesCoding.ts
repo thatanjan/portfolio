@@ -61,7 +61,7 @@ const backEndTechs = [nextjsApiRoutes, typescript, mongodb, mongoose]
 
 const toolsUsed = [git, github, vim, devtools, prettier, eslint]
 
-const confession = new Project(CULES_CODING)
+const facesta = new Project(CULES_CODING)
 	.addSubtitle(subtitle)
 	.addDescription(description)
 	.addProjectInfos(projectInfos)
@@ -71,4 +71,4 @@ const confession = new Project(CULES_CODING)
 	.addBackEndTechs(backEndTechs)
 	.addToolsUsed(toolsUsed)
 
-export default confession
+export default facesta

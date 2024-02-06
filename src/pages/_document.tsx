@@ -5,7 +5,7 @@ import createEmotionCache from 'utils/createEmotionCache'
 import { NextSeo } from 'next-seo'
 
 const description =
-	"Portfolio website of Anjan Shomodder. Anjan is a full stack web developer, Blogger and instructor at Cules Coding youtube channel. Creator of open source Social media application 'Confession'"
+	"Portfolio website of Anjan Shomodder. Anjan is a full stack web developer, Blogger and instructor at Cules Coding youtube channel. Creator of open source Social media application 'Facesta'"
 
 export default class MyDocument extends Document {
 	render() {

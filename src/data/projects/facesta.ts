@@ -23,14 +23,14 @@ import {
 
 import readImagePaths from 'utils/readImagePaths'
 
-export const CONFESSION = 'confession'
+export const FACESTA = 'facesta'
 
 const subtitle =
-	'An open source social media plattform for people to overcome their imposter syndrome.'
+	'Facesta is a social media Platform inspired from Facebook and Instagram.'
 
 const description = [
-	`A social media application to help people overcome their imposter syndrome. It's name is Confession. It has user authentication, Newsfeed, picture upload and almost every feature that a social media application needs.`,
-	`The basic idea here is, if people could share their failure stories freely then other will not have the feeling of 'not good enough'. That's how we can kill our imposter syndrome.`,
+	subtitle,
+	`It has user authentication, Newsfeed, picture upload and almost every feature that a social media application needs.`,
 ]
 
 const frontEndTechs = [javascript, react, redux, nextjs, typescript, mui]
@@ -61,24 +61,24 @@ const projectInfos = [
 	}),
 	new Info({
 		field: 'live_demo',
-		href: 'https://con-fession.vercel.app/',
-		value: 'Confession',
+		href: 'https://facesta.vercel.app/',
+		value: 'Facesta',
 	}),
 	new Info({
 		field: 'source_code',
-		href: 'https://github.com/thatanjan/confession',
+		href: 'https://github.com/thatanjan/facesta',
 		value: 'Github',
 	}),
 ]
 
-const confession = new Project(CONFESSION)
+const facesta = new Project(FACESTA)
 	.addSubtitle(subtitle)
 	.addDescription(description)
 	.addProjectInfos(projectInfos)
 	.addFeatures(features)
-	.addImages(readImagePaths(CONFESSION))
+	.addImages(readImagePaths(FACESTA))
 	.addFrontEndTechs(frontEndTechs)
 	.addBackEndTechs(backEndTechs)
 	.addToolsUsed(toolsUsed)
 
-export default confession
+export default facesta

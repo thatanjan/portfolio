@@ -15,7 +15,7 @@ const Index = () => {
 		<>
 			<NextSeo
 				title='Anjan Shomodder'
-				description="Portfolio website of Anjan Shomodder. Anjan is a full stack web developer, Blogger and instructor at Cules Coding youtube channel. Creator of open source Social media application 'Confession'"
+				description="Portfolio website of Anjan Shomodder. Anjan is a full stack web developer, Blogger and instructor at Cules Coding youtube channel. Creator of open source Social media application 'Facesta'"
 			/>
 
 			<Box

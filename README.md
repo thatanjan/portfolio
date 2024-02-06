@@ -10,8 +10,8 @@
 
 ### My other projects
 
-- [ Confession ](https://github.com/thatanjan/confession)
-- [Cules Coding](https://www.culescoding.space/)
+- [Facesta](https://github.com/thatanjan/facesta)
+- [Cules Coding](https://cules-coding.vercel.app/)
 - [Cules Shop](https://github.com/thatanjan/cules-shop)
 
 ### Contact

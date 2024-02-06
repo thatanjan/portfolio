@@ -11,7 +11,7 @@
 ### My other projects
 
 - [Facesta](https://github.com/thatanjan/facesta)
-- [Cules Coding](https://www.culescoding.space/)
+- [Cules Coding](https://cules-coding.vercel.app/)
 - [Cules Shop](https://github.com/thatanjan/cules-shop)
 
 ### Contact

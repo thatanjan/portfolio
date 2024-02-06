@@ -45,7 +45,7 @@ const projectInfos = [
 	}),
 	new Info({
 		field: 'live_demo',
-		href: 'https://www.culescoding.space/',
+		href: 'https://cules-coding.vercel.app/',
 		value: CULES_CODING,
 	}),
 	new Info({

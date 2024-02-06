@@ -22,11 +22,11 @@ const whatHaveYouDone = new AboutMeQuestion('What have you done').addAnswer(
 
 		<Typography>
 			I also run a youtube channel called{' '}
-			<TypographyLink href='https://www.culescoding.space/'>
+			<TypographyLink href='https://cules-coding.vercel.app/'>
 				cules coding
 			</TypographyLink>{' '}
 			and write blogs on my website{' '}
-			<TypographyLink href='https://www.culescoding.space/'>
+			<TypographyLink href='https://cules-coding.vercel.app/'>
 				culescoding.space
 			</TypographyLink>{' '}
 			where I teach people full stack web development, data structure, algorithms
